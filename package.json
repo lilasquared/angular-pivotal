@@ -1,0 +1,39 @@
+{
+  "name": "angular-pivotal",
+  "version": "0.1.0",
+  "description": "Angular JS Module for PivotalTracker API",
+  "main": "angular-pivotal-tracker.min.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilasquared/angular-pivotal.git"
+  },
+  "keywords": [
+    "angular",
+    "pivotal",
+    "module",
+    "api"
+  ],
+  "author": "Aaron Roberts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lilasquared/angular-pivotal/issues"
+  },
+  "homepage": "https://github.com/lilasquared/angular-pivotal#readme"
+}

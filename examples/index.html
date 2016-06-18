@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pivotal Example</title>
+</head>
+<body ng-app="pivotal-example">
+  <div ng-controller="PivotalExample as vm">
+    <input type="text" ng-model="vm.apiToken" /> <br />
+    <button type="buttpm" ng-click="vm.getProjects()">Get Projects</button> <br />
+    <textarea ng-model="vm.projects"></textarea>
+  </div>
+
+  <script src="https://code.angularjs.org/1.5.7/angular.js"></script>
+  <script src="pivotal-example.js"></script>
+  <script src="../dist/angular-pivotal-tracker.min.js"></script>
+</body>
+</html>
